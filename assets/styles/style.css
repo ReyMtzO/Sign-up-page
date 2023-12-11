@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #b684e9;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/*Características del contenedor del Sign Up Page*/
+.container {
+    display:flex;
+}
+
+.form-container,
+.image-container {
+    flex: 1;
+}
+
+.form-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 64px;
+    border-radius: 20px;     /*Borde de contenedor*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /*Color del sombreado del borde*/
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #000000;
+    font-size: 18px;
+}
+
+input {
+    margin-bottom: 1px;
+    margin-left: -90px;
+    padding: 10px;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #6B43FF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover { /* Cambio de color del botón al poner encima el cursor */
+    background-color: #9b83e2;
+}
+
+/*Acomoda los botones de Google y Apple uno al lado del otro*/
+.auth-options {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.google-auth,
+.apple-auth {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 3px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.or-divider {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: #ddd;
+    margin: 0 10px;
+}
+
+/*Already have an account?*/
+#account {
+    text-align: end;
+    color: #6B43FF;
+    font-style: normal;
+    font-weight: bold;
+}
+
+span {
+    color: #777;
+}

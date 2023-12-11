@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <title>Página de Registro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container col-6">
+        <h1>Create your account</h1>
+        <form>
+            <!-- Campos del formulario -->
+            <!-- Sección de autenticación con Google y Apple -->
+            <div class="auth-options">
+                <div class="google-auth display-flex">Use Google</div>
+                <div class="apple-auth display-flex">Use Apple</div>
+            </div>
+            <!-- Separador "Or" -->
+            <div class="or-divider">
+                <div class="line"></div>
+                <span>Or</span>
+                <div class="line"></div>
+            </div>
+            <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>    
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Your Password"required>
+        </div>
+        <br>
+        <br>
+        <button type="submit">Login</button>
+    </form>
+    <br>
+    <!-- Mensaje para usuarios que ya tienen una cuenta -->
+    <div id="account">Already have a account?</div>
+        </div>
+    </div>
+    <div class="col-6">
+        <img src="/assets/img/Image20231206171114.png" alt="Ilustración desarrollador web">
+    </div>
+</body>
+</html>
